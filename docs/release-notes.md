@@ -2,6 +2,26 @@
 
 This file contains important information for each release.
 
+## 2025-01-22
+
+This release updates nixpkgs.
+
+This release corrects a build failure with the latest nixpkgs due to a change in
+how the `alsa-ucm-conf` derivation works.
+
+## 2025-01-20
+
+This release updates nixpkgs. **NixOS 24.11 users must stay on the previous
+release.**
+
+Thanks to the hard work of upstream nixpkgs and Mesa (K900 in particular), the
+Mesa graphics support has been revamped to be easier and faster, see commits
+for details. The `hardware.asahi.experimentalGPUInstallMode` option no longer
+does anything and will be deprecated and removed in future releases.
+
+This fixes graphics issues with nixpkgs unstable. The Wi-Fi issue also appears
+fixed.
+
 ## 2024-12-25
 
 This release updates nixpkgs, the kernel, and Mesa.
