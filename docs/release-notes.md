@@ -2,6 +2,19 @@
 
 This file contains important information for each release.
 
+## 2025-03-15
+
+This release updates nixpkgs and the kernel.
+
+This release fixes build issues with the kernel and the latest nixpkgs. Thanks
+to flokli for info on the fix.
+
+## 2025-03-10
+
+This release updates nixpkgs and Mesa.
+
+This release fixes build issues with Mesa and the latest nixpkgs.
+
 ## 2025-02-03
 
 This release updates nixpkgs, m1n1, and the kernel.
